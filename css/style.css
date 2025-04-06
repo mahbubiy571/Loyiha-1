@@ -1,0 +1,121 @@
+@font-face {
+    font-display: swap; 
+    font-family: 'Figtree';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/figtree-v7-latin-500.woff2') format('woff2'); 
+  }
+  @font-face {
+    font-display: swap; 
+    font-family: 'Figtree';
+    font-style: normal;
+    font-weight: 800;
+    src: url('../fonts/figtree-v7-latin-800.woff2') format('woff2'); 
+  }
+
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0; 
+   transition: 0.3s;
+}
+
+img {
+    display: flex   ;
+}
+
+html {
+height: 100%;
+}
+
+body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F4D04E;
+    line-height: 150%;
+    font-family: "Figtree","sans-serif","font-family";
+}
+
+main {
+    flex-grow: 1;
+}
+
+.container {
+    width: 100%;
+    max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.article {
+   background-color: #FFFFFF;
+   width: 384px;
+   border: 1px solid #111111;
+   border-radius: 20px;
+   padding: 24px;
+   box-shadow: 8px 8px 0px 0px #000000;
+}
+
+.article:hover {
+    box-shadow: 16px 16px 0px 0px #000000;
+}
+
+.article-image { 
+   margin-bottom: 24px;
+}
+.article-type {
+    padding: 4px 12px ;
+    background-color: #F4D04E;
+    gap: 8px;
+    border-radius: 4px;
+    font-weight: 800;
+    display: inline-block;
+    margin-bottom: 12px;
+}
+.article-time {
+    font-weight: 500;
+    font-size: 14px;
+    color: #111111;
+    margin-bottom: 12px;
+}
+.article-title {
+    margin-bottom: 12px;
+}
+
+.article-title-link {
+    font-weight: 800px;
+    font-size: 24px;
+}
+
+.article-title-link:hover {
+    color:#F4D04E;
+}
+
+.article-desckription {
+    font-weight: 500;
+    font-size: 16px;
+    color:#7F7F7F;
+    margin-bottom: 24px;
+}
+
+.article-author {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.article-author-avatar {
+    object-fit: cover;
+    border-radius:50%;
+}
+
+.article-author-name {
+    font-weight:800;
+    font-size: 14px;
+}
+    
